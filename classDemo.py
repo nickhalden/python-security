@@ -12,8 +12,6 @@ class Calculator:
 class Scientific(Calculator):
 	def power(self):
 		return pow(self.a,self.b)
-newCalculation=Calculator(10,20)
-print "a+b %d " %newCalculation.add()
-print "a*b %d "	%newCalculation.mul()
-newPower=Scientific(10,2)
-print "a power b is %d" %newPower.power()
+def quickAdd(a,b):
+	return a+b
+
